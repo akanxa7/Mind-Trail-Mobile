@@ -1,6 +1,6 @@
 let gameseq = [];
 let userseq = [];
-let btns = ["yellow", "red", "purple", "green", "brown", "orange", "pink", "blue"];
+let btns = ["yellow", "red", "purple", "green", "brown", "orange" /*"pink", "blue"*/];
 let started = false;
 let level = 0;
 let highscore = 0; // Variable to store the high score
