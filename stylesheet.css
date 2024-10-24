@@ -331,3 +331,24 @@ h3 {
 }
 
 
+
+.btn {
+    height: 15vh; /* 15% of the viewport height */
+    width: 15vh;  /* Keep it proportional using vh */
+    border-radius: 15%; /* Adjust to maintain a rounded appearance */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .btn {
+        height: 12vh; /* Make the buttons slightly smaller on small screens */
+        width: 12vh;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 10vh;
+        width: 10vh;
+    }
+}
