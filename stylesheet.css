@@ -212,35 +212,6 @@ body {
     }
 }
 
-/*h1 {
-    font-size: 3em;
-    color: #ffffff;
-    text-align: center;
-    margin-top: 50px;
-    letter-spacing: 5px;
-    font-weight: 900;
-    text-transform: uppercase;
-    text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.7), 0 0 15px rgba(255, 255, 255, 0.8); /* Bold shadow and glow effect */
-   /* position: relative;
-    z-index: 2; /* Ensures it appears above background elements */
-/*}
-
-h1::after {
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 80%;
-    height: 100%;
-    background-color:#2C003E; /* Semi-transparent black box */
-  /*  z-index: -1;
-    padding: 5px;
-    border-radius: 50px; 
-    opacity: 0.6;/* Rounded corners */
-   /* filter: blur(5px);  Blurred background effect */ 
-
-
 
 h1 {
     font-size: 2.5em;
@@ -293,25 +264,25 @@ h2 {
     margin-top: 30px; /* Space above the h2 */
 }
 
-h3 {
+/*h3 {
     font-size: 1.0em; /* Increase font size */
-    color: #FFFFFF; /* Bright white for strong contrast */
-    font-weight: bold; /* Make the text bold */
-    text-align: center;
+  /*  color: #FFFFFF; /* Bright white for strong contrast */
+    /*font-weight: bold; /* Make the text bold */
+    /*text-align: center;
     letter-spacing: 5px; /* Increase letter spacing */
-    padding: 15px 30px; /* Padding for spacing inside the background box */
-    position: relative; /* Allows the box and text to stay together */
-    z-index: 2; /* Ensure text stays above any other elements */
+    /*padding: 15px 30px; /* Padding for spacing inside the background box */
+    /*position: relative; /* Allows the box and text to stay together */
+    /*z-index: 2; /* Ensure text stays above any other elements */
     
     /* Text shadow for added depth */
-    text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.8);
+  /*  text-shadow: 3px 3px 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(255, 255, 255, 0.8);
 
     /* Optional glow animation for dynamic look */
-    animation: glow 2s infinite alternate;
+  /*  animation: glow 2s infinite alternate;
 }
 
 /* Add a semi-transparent background box behind the high score */
-h3::before {
+/*h3::before {
     content: "";
     position: absolute;
     top: 0;
@@ -320,11 +291,43 @@ h3::before {
     width: 80%;
     height: 5%;
     background-color:#2C003E ; /* Semi-transparent black box */
-    z-index: -1; /* Place the box behind the text */
-    border-radius: 15px; /* Rounded corners for smooth look */
-    padding: 10px;
+ /*   z-index: -1; /* Place the box behind the text */
+  /*  border-radius: 15px; /* Rounded corners for smooth look */
+   /*   padding: 10px;
     opacity: 0.6;
-    
+}*/    
    
+h3 {
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 8px;
+    border: 2px solid white;
+    display: inline-block;
+    margin-top: 1em;
+    animation: glowSubtle 1.5s ease-in-out infinite alternate, scaleInH3 0.8s ease forwards;
 }
+
+@keyframes glowSubtle {
+    from {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+    }
+    to {
+        text-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    }
+}
+
+@keyframes scaleInH3 {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
 
