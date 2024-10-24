@@ -218,32 +218,13 @@ h1 {
     color: white;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8);
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #2C003E; 
     border-radius: 10px;
     border: 3px solid white;
     display: inline-block;
     margin-top: 1em;
-    animation: glow 1.5s ease-in-out infinite alternate, scaleIn 1s ease forwards;
-}
-
-@keyframes glow {
-    from {
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(255, 255, 255, 0.4);
-    }
-    to {
-        text-shadow: 0 0 20px rgba(255, 255, 255, 1), 0 0 30px rgba(255, 255, 255, 0.8), 0 0 40px rgba(255, 255, 255, 0.6);
-    }
-}
-
-@keyframes scaleIn {
-    from {
-        transform: scale(0.5);
-        opacity: 0;
-    }
-    to {
-        transform: scale(1);
-        opacity: 1;
-    }
+    width: 80%;
+    height: 100%;
 }
 
 
