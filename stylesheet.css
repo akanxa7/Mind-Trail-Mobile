@@ -12,8 +12,8 @@ body {
 
 /* Button Styles */
 .btn {
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
     border-radius: 15%;
     border: 10px solid #2c3e50;
     margin: 1em;
@@ -174,8 +174,8 @@ body {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     .btn {
-        height: 120px;
-        width: 120px;
+        height: 100px;
+        width: 100px;
         margin: 0.5em;
         border-radius: 15%;
         border: 8px solid #2c3e50;
@@ -192,8 +192,8 @@ body {
 
 @media (max-width: 480px) {
     .btn {
-        height: 100px;
-        width: 100px;
+        height: 80px;
+        width: 80px;
         margin: 0.5em;
         border-radius: 15%;
         border: 6px solid #2c3e50;
