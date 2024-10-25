@@ -172,7 +172,7 @@ body {
 }
 
 /* Media Queries for Responsiveness */
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .btn {
         height: 100px;
         width: 100px;
@@ -183,14 +183,14 @@ body {
 
     #progress-bar {
         height: 8px; /* Slightly reduce height for smaller screens */
-    }
+  /*  }
 
     .btn-container {
         padding: 10px;
     }
 }
 
-@media (max-width: 480px) {
+/*@media (max-width: 480px) {
     .btn {
         height: 80px;
         width: 80px;
@@ -209,8 +209,8 @@ body {
 
     .wave {
         height: 10em; /* Reduce wave size */
-    }
-}
+ /*   }
+} */
 
 
 h1 {
