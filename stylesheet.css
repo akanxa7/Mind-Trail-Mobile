@@ -172,10 +172,10 @@ body {
 }
 
 /* Media Queries for Responsiveness */
-/*@media (max-width: 768px) {
+@media (max-width: 768px) {
     .btn {
-        height: 100px;
-        width: 100px;
+        height: 180px;
+        width: 180px;
         margin: 0.5em;
         border-radius: 15%;
         border: 8px solid #2c3e50;
@@ -183,17 +183,17 @@ body {
 
     #progress-bar {
         height: 8px; /* Slightly reduce height for smaller screens */
-  /*  }
+    }
 
     .btn-container {
         padding: 10px;
     }
 }
 
-/*@media (max-width: 480px) {
+@media (max-width: 480px) {
     .btn {
-        height: 80px;
-        width: 80px;
+        height: 150px;
+        width: 150px;
         margin: 0.5em;
         border-radius: 15%;
         border: 6px solid #2c3e50;
@@ -209,8 +209,8 @@ body {
 
     .wave {
         height: 10em; /* Reduce wave size */
- /*   }
-} */
+   }
+} 
 
 
 h1 {
